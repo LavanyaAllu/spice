@@ -1,0 +1,12 @@
+E:\DotNetFreshersBatchJan2021\WebAppsOfAsp.Net\SpiceProject\Spice.DomainModel\bin\Debug\Spice.DomainModel.dll.config
+E:\DotNetFreshersBatchJan2021\WebAppsOfAsp.Net\SpiceProject\Spice.DomainModel\bin\Debug\Spice.DomainModel.dll
+E:\DotNetFreshersBatchJan2021\WebAppsOfAsp.Net\SpiceProject\Spice.DomainModel\bin\Debug\Spice.DomainModel.pdb
+E:\DotNetFreshersBatchJan2021\WebAppsOfAsp.Net\SpiceProject\Spice.DomainModel\bin\Debug\EntityFramework.dll
+E:\DotNetFreshersBatchJan2021\WebAppsOfAsp.Net\SpiceProject\Spice.DomainModel\bin\Debug\EntityFramework.SqlServer.dll
+E:\DotNetFreshersBatchJan2021\WebAppsOfAsp.Net\SpiceProject\Spice.DomainModel\bin\Debug\EntityFramework.xml
+E:\DotNetFreshersBatchJan2021\WebAppsOfAsp.Net\SpiceProject\Spice.DomainModel\bin\Debug\EntityFramework.SqlServer.xml
+E:\DotNetFreshersBatchJan2021\WebAppsOfAsp.Net\SpiceProject\Spice.DomainModel\obj\Debug\Spice.DomainModel.csprojAssemblyReference.cache
+E:\DotNetFreshersBatchJan2021\WebAppsOfAsp.Net\SpiceProject\Spice.DomainModel\obj\Debug\Spice.DomainModel.csproj.CoreCompileInputs.cache
+E:\DotNetFreshersBatchJan2021\WebAppsOfAsp.Net\SpiceProject\Spice.DomainModel\obj\Debug\Spice.DomainModel.csproj.CopyComplete
+E:\DotNetFreshersBatchJan2021\WebAppsOfAsp.Net\SpiceProject\Spice.DomainModel\obj\Debug\Spice.DomainModel.dll
+E:\DotNetFreshersBatchJan2021\WebAppsOfAsp.Net\SpiceProject\Spice.DomainModel\obj\Debug\Spice.DomainModel.pdb

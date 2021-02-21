@@ -1,0 +1,27 @@
+﻿@model Spice.DomainModel.Category
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<br />
+<h2 class="text-info">Delete Category</h2>
+<br />
+
+<form method="post" action="Delete">
+    <div class="border backgroundWhite">
+        <div class="form-group row">
+            <div class="col-2">
+                @Html.DisplayFor(model => model.Name)
+            </div>
+        </div>
+    </div>
+</form>
+<form action="/Category/Delete/@Model.Id" method="post">
+    <div class="form-actions no-color">
+        <button type="submit" class="btn btn-danger">Delete Category</button>
+        @Html.ActionLink("Back to List", "Index")
+    </div>
+</form>
+

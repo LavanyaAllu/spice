@@ -1,0 +1,18 @@
+﻿@model Spice.DomainModel.Category
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<table class="table">
+    <tr>
+        <td>Category Name</td>
+        <td>@Model.Name</td>
+    </tr>
+</table>
+
+<a href="/Category/Index" class="btn btn-info">Back</a>
+
+

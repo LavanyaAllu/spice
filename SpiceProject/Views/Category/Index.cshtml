@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Spice.DomainModel.Category>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+
+<div class="border backgroundWhite">
+    <div class="row">
+        <div class="col-6">
+            <h2 class="text-info"> Category List</h2>
+        </div>
+        <div class="col-6 text-right">
+        </div>
+    </div>
+    <br />
+    <div>
+        @if (Model.Count() > 0)
+        {
+        <table class="table table-striped border">
+            <tr class="table-secondary">
+                <th>
+                    @Html.DisplayNameFor(m => m.Name)
+                </th>
+                <th></th>
+                <th></th>
+            </tr>
+            @foreach (var item in Model)
+            {
+        <tr>
+            <td>
+                @Html.DisplayFor(m => item.Name)
+            </td>
+            <td>@Html.ActionLink("Details", "Details", new { @item.Id }, "Category")</td>
+            <td>@Html.ActionLink("Edit", "Edit", new { @item.Id }, "Category") </td>
+            <td><a href="/Category/Delete/@item.Id" class="btn btn-danger">Delete</a></td>
+        </tr>
+            }
+        </table> }
+        else
+        {
+            <p>No category exists...</p>}
+    </div>
+</div>
+
+
+
